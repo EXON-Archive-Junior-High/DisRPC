@@ -1,0 +1,2 @@
+# Discord-RPC
+Discord RPC
