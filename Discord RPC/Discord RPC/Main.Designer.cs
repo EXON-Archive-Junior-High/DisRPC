@@ -42,11 +42,13 @@
             this.largeImage = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.imageText = new Guna.UI2.WinForms.Guna2TextBox();
+            this.stop = new Guna.UI2.WinForms.Guna2Button();
+            this.isTimeStamp = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.SuspendLayout();
             // 
             // start
             // 
-            this.start.BorderRadius = 15;
+            this.start.BorderRadius = 20;
             this.start.CheckedState.Parent = this.start;
             this.start.CustomImages.Parent = this.start;
             this.start.FillColor = System.Drawing.Color.Gray;
@@ -228,10 +230,42 @@
             this.imageText.SelectedText = "";
             this.imageText.ShadowDecoration.Parent = this.imageText;
             // 
+            // stop
+            // 
+            this.stop.BorderRadius = 20;
+            this.stop.CheckedState.Parent = this.stop;
+            this.stop.CustomImages.Parent = this.stop;
+            this.stop.FillColor = System.Drawing.Color.Gray;
+            resources.ApplyResources(this.stop, "stop");
+            this.stop.ForeColor = System.Drawing.Color.White;
+            this.stop.HoverState.Parent = this.stop;
+            this.stop.Name = "stop";
+            this.stop.PressedColor = System.Drawing.Color.DarkGray;
+            this.stop.ShadowDecoration.Parent = this.stop;
+            this.stop.Click += new System.EventHandler(this.stop_Click);
+            // 
+            // isTimeStamp
+            // 
+            this.isTimeStamp.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.isTimeStamp.CheckedState.BorderRadius = 2;
+            this.isTimeStamp.CheckedState.BorderThickness = 0;
+            this.isTimeStamp.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.isTimeStamp.CheckedState.Parent = this.isTimeStamp;
+            resources.ApplyResources(this.isTimeStamp, "isTimeStamp");
+            this.isTimeStamp.Name = "isTimeStamp";
+            this.isTimeStamp.ShadowDecoration.Parent = this.isTimeStamp;
+            this.isTimeStamp.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.isTimeStamp.UncheckedState.BorderRadius = 2;
+            this.isTimeStamp.UncheckedState.BorderThickness = 0;
+            this.isTimeStamp.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.isTimeStamp.UncheckedState.Parent = this.isTimeStamp;
+            // 
             // Discord_RPC
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.isTimeStamp);
+            this.Controls.Add(this.stop);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.imageText);
             this.Controls.Add(this.label4);
@@ -268,6 +302,8 @@
         private Guna.UI2.WinForms.Guna2TextBox largeImage;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2TextBox imageText;
+        private Guna.UI2.WinForms.Guna2Button stop;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox isTimeStamp;
     }
 }
 

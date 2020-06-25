@@ -27,39 +27,53 @@ namespace Discord_RPC
 
 		void Initialize()
 		{
-	
-			client = new DiscordRpcClient(id.Text);
+			try
+            {
+				client = new DiscordRpcClient(id.Text);
 
-			//Subscribe to events
-			client.OnReady += (sender, e) =>
-			{
-				Console.WriteLine("Received Ready from user {0}", e.User.Username);
-				MessageBox.Show("실행");
-			};
-
-			client.OnPresenceUpdate += (sender, e) =>
-			{
-				Console.WriteLine("Received Update! {0}", e.Presence);
-				MessageBox.Show("업데이트");
-			};
-
-			client.Initialize();
-			client.SetPresence(new RichPresence()
-			{
-				Details = details.Text,
-				State = state.Text,
-				Assets = new Assets()
+				//Subscribe to events
+				client.OnReady += (sender, e) =>
 				{
-					LargeImageKey = largeImage.Text,
-					LargeImageText = imageText.Text,
-					SmallImageKey = smallImage.Text
+					Console.WriteLine("Received Ready from user {0}", e.User.Username);
+					MessageBox.Show("실행");
+				};
+
+				client.OnPresenceUpdate += (sender, e) =>
+				{
+					Console.WriteLine("Received Update! {0}", e.Presence);
+					MessageBox.Show("업데이트");
+				};
+
+				client.Initialize();
+				client.SetPresence(new RichPresence()
+				{
+					Details = details.Text,
+					State = state.Text,
+					Assets = new Assets()
+					{
+						LargeImageKey = largeImage.Text,
+						LargeImageText = imageText.Text,
+						SmallImageKey = smallImage.Text
+					}
+				});
+
+				if (isTimeStamp.Checked)
+				{
+					client.UpdateStartTime();
 				}
-			});
+			}
+			catch (Exception e)
+            {
+				MessageBox.Show(e.Message);
+            }
+
 		}
 
         private void start_Click(object sender, EventArgs e)
         {
 			Initialize();
+
+
 		}
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
@@ -78,5 +92,10 @@ namespace Discord_RPC
         {
 
         }
+
+        private void stop_Click(object sender, EventArgs e)
+        {
+			client.Dispose();
+		}
     }
 }
