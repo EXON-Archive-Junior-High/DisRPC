@@ -44,6 +44,7 @@
             this.imageText = new Guna.UI2.WinForms.Guna2TextBox();
             this.stop = new Guna.UI2.WinForms.Guna2Button();
             this.isTimeStamp = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.guna2GradientTileButton1 = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.SuspendLayout();
             // 
             // start
@@ -260,10 +261,25 @@
             this.isTimeStamp.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.isTimeStamp.UncheckedState.Parent = this.isTimeStamp;
             // 
+            // guna2GradientTileButton1
+            // 
+            this.guna2GradientTileButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientTileButton1.BorderRadius = 22;
+            this.guna2GradientTileButton1.CheckedState.Parent = this.guna2GradientTileButton1;
+            this.guna2GradientTileButton1.CustomImages.Parent = this.guna2GradientTileButton1;
+            this.guna2GradientTileButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.guna2GradientTileButton1, "guna2GradientTileButton1");
+            this.guna2GradientTileButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientTileButton1.HoverState.Parent = this.guna2GradientTileButton1;
+            this.guna2GradientTileButton1.Name = "guna2GradientTileButton1";
+            this.guna2GradientTileButton1.ShadowDecoration.Parent = this.guna2GradientTileButton1;
+            // 
             // Discord_RPC
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.guna2GradientTileButton1);
             this.Controls.Add(this.isTimeStamp);
             this.Controls.Add(this.stop);
             this.Controls.Add(this.label6);
@@ -304,6 +320,7 @@
         private Guna.UI2.WinForms.Guna2TextBox imageText;
         private Guna.UI2.WinForms.Guna2Button stop;
         private Guna.UI2.WinForms.Guna2CustomCheckBox isTimeStamp;
+        private Guna.UI2.WinForms.Guna2GradientTileButton guna2GradientTileButton1;
     }
 }
 
