@@ -150,6 +150,7 @@ namespace Discord_RPC
 
         private void Discord_RPC_FormClosing(object sender, FormClosingEventArgs e)
         {
+
 			e.Cancel = true;
 			this.Hide();
 

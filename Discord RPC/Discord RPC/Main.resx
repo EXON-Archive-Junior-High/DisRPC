@@ -471,78 +471,6 @@
   <data name="&gt;&gt;imageText.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;formText.Name" xml:space="preserve">
-    <value>formText</value>
-  </data>
-  <data name="&gt;&gt;formText.Type" xml:space="preserve">
-    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;formText.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;formText.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox3.Name" xml:space="preserve">
-    <value>guna2ControlBox3</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox3.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox2.Name" xml:space="preserve">
-    <value>guna2ControlBox2</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox2.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox1.Name" xml:space="preserve">
-    <value>guna2ControlBox1</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox1.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;guna2ControlBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="guna2Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1034, 30</value>
-  </data>
-  <data name="guna2Panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel1.Name" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="formText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -568,7 +496,7 @@
     <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
   <data name="&gt;&gt;formText.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>Bar</value>
   </data>
   <data name="&gt;&gt;formText.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -592,13 +520,16 @@
     <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;guna2ControlBox3.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>Bar</value>
   </data>
   <data name="&gt;&gt;guna2ControlBox3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="guna2ControlBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
+  </data>
+  <data name="guna2ControlBox2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="guna2ControlBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>954, 0</value>
@@ -616,7 +547,7 @@
     <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;guna2ControlBox2.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>Bar</value>
   </data>
   <data name="&gt;&gt;guna2ControlBox2.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -640,70 +571,34 @@
     <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;guna2ControlBox1.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>Bar</value>
   </data>
   <data name="&gt;&gt;guna2ControlBox1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;Setting.Name" xml:space="preserve">
-    <value>Setting</value>
+  <data name="Bar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;Setting.Type" xml:space="preserve">
-    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  <data name="Bar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;Setting.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
+  <data name="Bar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 30</value>
   </data>
-  <data name="&gt;&gt;Setting.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="Bar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;Info.Name" xml:space="preserve">
-    <value>Info</value>
+  <data name="&gt;&gt;Bar.Name" xml:space="preserve">
+    <value>Bar</value>
   </data>
-  <data name="&gt;&gt;Info.Type" xml:space="preserve">
-    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Info.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Info.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Main.Name" xml:space="preserve">
-    <value>Main</value>
-  </data>
-  <data name="&gt;&gt;Main.Type" xml:space="preserve">
-    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Main.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Main.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="guna2Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 571</value>
-  </data>
-  <data name="guna2Panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.Name" xml:space="preserve">
-    <value>guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.Type" xml:space="preserve">
+  <data name="&gt;&gt;Bar.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;guna2Panel2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Bar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;guna2Panel2.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;Bar.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="Setting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -879,6 +774,30 @@
   <data name="&gt;&gt;Main.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="guna2Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 571</value>
+  </data>
+  <data name="guna2Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Name" xml:space="preserve">
+    <value>guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1041,6 +960,9 @@
   <data name="&gt;&gt;stop.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="Drag.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1055,6 +977,12 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Discord RPC</value>
+  </data>
+  <data name="&gt;&gt;Drag.Name" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="&gt;&gt;Drag.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Discord_RPC</value>

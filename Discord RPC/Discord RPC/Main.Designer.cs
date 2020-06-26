@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Discord_RPC));
             this.id = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,10 +42,9 @@
             this.largeImage = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.imageText = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Bar = new Guna.UI2.WinForms.Guna2Panel();
             this.formText = new Guna.UI.WinForms.GunaLabel();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.Setting = new Guna.UI.WinForms.GunaAdvenceButton();
@@ -54,7 +54,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.start = new Guna.UI.WinForms.GunaGradientButton();
             this.stop = new Guna.UI.WinForms.GunaGradientButton();
-            this.guna2Panel1.SuspendLayout();
+            this.Drag = new Guna.UI.WinForms.GunaDragControl(this.components);
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.Bar.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -232,16 +234,16 @@
             this.imageText.SelectedText = "";
             this.imageText.ShadowDecoration.Parent = this.imageText;
             // 
-            // guna2Panel1
+            // Bar
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
-            this.guna2Panel1.Controls.Add(this.formText);
-            this.guna2Panel1.Controls.Add(this.guna2ControlBox3);
-            this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
-            this.guna2Panel1.Controls.Add(this.guna2ControlBox1);
-            resources.ApplyResources(this.guna2Panel1, "guna2Panel1");
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
+            this.Bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.Bar.Controls.Add(this.formText);
+            this.Bar.Controls.Add(this.guna2ControlBox3);
+            this.Bar.Controls.Add(this.guna2ControlBox2);
+            this.Bar.Controls.Add(this.guna2ControlBox1);
+            resources.ApplyResources(this.Bar, "Bar");
+            this.Bar.Name = "Bar";
+            this.Bar.ShadowDecoration.Parent = this.Bar;
             // 
             // formText
             // 
@@ -259,16 +261,6 @@
             this.guna2ControlBox3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(205)))), ((int)(((byte)(44)))));
             this.guna2ControlBox3.Name = "guna2ControlBox3";
             this.guna2ControlBox3.ShadowDecoration.Parent = this.guna2ControlBox3;
-            // 
-            // guna2ControlBox2
-            // 
-            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            resources.ApplyResources(this.guna2ControlBox2, "guna2ControlBox2");
-            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
-            this.guna2ControlBox2.HoverState.Parent = this.guna2ControlBox2;
-            this.guna2ControlBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(39)))));
-            this.guna2ControlBox2.Name = "guna2ControlBox2";
-            this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
             // 
             // guna2ControlBox1
             // 
@@ -436,6 +428,20 @@
             this.stop.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.stop.Click += new System.EventHandler(this.stop_Click);
             // 
+            // Drag
+            // 
+            this.Drag.TargetControl = this.Bar;
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            resources.ApplyResources(this.guna2ControlBox2, "guna2ControlBox2");
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.guna2ControlBox2.HoverState.Parent = this.guna2ControlBox2;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(39)))));
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
+            // 
             // Discord_RPC
             // 
             resources.ApplyResources(this, "$this");
@@ -446,7 +452,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.guna2Panel2);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.Bar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.imageText);
             this.Controls.Add(this.label4);
@@ -463,8 +469,8 @@
             this.Name = "Discord_RPC";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Discord_RPC_FormClosing);
             this.Load += new System.EventHandler(this.Discord_RPC_Load);
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
+            this.Bar.ResumeLayout(false);
+            this.Bar.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -484,9 +490,8 @@
         private Guna.UI2.WinForms.Guna2TextBox largeImage;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2TextBox imageText;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel Bar;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI.WinForms.GunaAdvenceButton Main;
@@ -497,6 +502,8 @@
         private Guna.UI.WinForms.GunaLabel formText;
         private Guna.UI.WinForms.GunaAdvenceButton Setting;
         private Guna.UI.WinForms.GunaAdvenceButton Info;
+        private Guna.UI.WinForms.GunaDragControl Drag;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
     }
 }
 
