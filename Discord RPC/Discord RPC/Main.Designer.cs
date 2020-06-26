@@ -144,7 +144,6 @@
             this.state.PlaceholderText = "";
             this.state.SelectedText = "";
             this.state.ShadowDecoration.Parent = this.state;
-            this.state.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // label4
             // 
@@ -203,7 +202,6 @@
             this.largeImage.PlaceholderText = "";
             this.largeImage.SelectedText = "";
             this.largeImage.ShadowDecoration.Parent = this.largeImage;
-            this.largeImage.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
             // label6
             // 
@@ -294,14 +292,14 @@
             this.Main.CheckedBaseColor = System.Drawing.Color.Gray;
             this.Main.CheckedBorderColor = System.Drawing.Color.Black;
             this.Main.CheckedForeColor = System.Drawing.Color.White;
-            this.Main.CheckedImage = ((System.Drawing.Image)(resources.GetObject("Main.CheckedImage")));
+            this.Main.CheckedImage = null;
             this.Main.CheckedLineColor = System.Drawing.Color.DimGray;
             this.Main.DialogResult = System.Windows.Forms.DialogResult.None;
             resources.ApplyResources(this.Main, "Main");
             this.Main.FocusedColor = System.Drawing.Color.Empty;
             this.Main.ForeColor = System.Drawing.Color.White;
             this.Main.Image = ((System.Drawing.Image)(resources.GetObject("Main.Image")));
-            this.Main.ImageSize = new System.Drawing.Size(20, 20);
+            this.Main.ImageSize = new System.Drawing.Size(30, 30);
             this.Main.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.Main.Name = "Main";
             this.Main.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
@@ -393,14 +391,14 @@
             this.Info.CheckedBaseColor = System.Drawing.Color.Gray;
             this.Info.CheckedBorderColor = System.Drawing.Color.Black;
             this.Info.CheckedForeColor = System.Drawing.Color.White;
-            this.Info.CheckedImage = ((System.Drawing.Image)(resources.GetObject("Info.CheckedImage")));
+            this.Info.CheckedImage = null;
             this.Info.CheckedLineColor = System.Drawing.Color.DimGray;
             this.Info.DialogResult = System.Windows.Forms.DialogResult.None;
             resources.ApplyResources(this.Info, "Info");
             this.Info.FocusedColor = System.Drawing.Color.Empty;
             this.Info.ForeColor = System.Drawing.Color.White;
             this.Info.Image = ((System.Drawing.Image)(resources.GetObject("Info.Image")));
-            this.Info.ImageSize = new System.Drawing.Size(20, 20);
+            this.Info.ImageSize = new System.Drawing.Size(30, 30);
             this.Info.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.Info.Name = "Info";
             this.Info.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
@@ -417,17 +415,17 @@
             this.Setting.AnimationSpeed = 0.03F;
             this.Setting.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
             this.Setting.BorderColor = System.Drawing.Color.Black;
-            this.Setting.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.Setting.CheckedBorderColor = System.Drawing.Color.Black;
+            this.Setting.CheckedBaseColor = System.Drawing.Color.Transparent;
+            this.Setting.CheckedBorderColor = System.Drawing.Color.Transparent;
             this.Setting.CheckedForeColor = System.Drawing.Color.White;
-            this.Setting.CheckedImage = ((System.Drawing.Image)(resources.GetObject("Setting.CheckedImage")));
+            this.Setting.CheckedImage = null;
             this.Setting.CheckedLineColor = System.Drawing.Color.DimGray;
             this.Setting.DialogResult = System.Windows.Forms.DialogResult.None;
             resources.ApplyResources(this.Setting, "Setting");
             this.Setting.FocusedColor = System.Drawing.Color.Empty;
             this.Setting.ForeColor = System.Drawing.Color.White;
             this.Setting.Image = ((System.Drawing.Image)(resources.GetObject("Setting.Image")));
-            this.Setting.ImageSize = new System.Drawing.Size(20, 20);
+            this.Setting.ImageSize = new System.Drawing.Size(30, 30);
             this.Setting.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.Setting.Name = "Setting";
             this.Setting.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));

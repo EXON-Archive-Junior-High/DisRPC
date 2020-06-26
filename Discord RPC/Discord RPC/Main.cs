@@ -23,6 +23,11 @@ namespace Discord_RPC
 		private void Discord_RPC_Load(object sender, EventArgs e)
 		{
 			this.Text += " Beta";
+			formText.Text += " Beta";
+
+			MenuVisible("Main", true);
+			MenuVisible("Info", false);
+			MenuVisible("Setting", false);
 		}
 
 		void Initialize()
@@ -80,6 +85,10 @@ namespace Discord_RPC
 					{
 						label7.Text = "Main";
 						label8.Text = "RPC";
+
+						Main.Image = Image.FromFile("Image/mainRed.png");
+						Info.Image = Image.FromFile("Image/info.png");
+						Setting.Image = Image.FromFile("Image/settingWhite.png");
 					}
 
 					label1.Visible = visible;
@@ -106,7 +115,13 @@ namespace Discord_RPC
 					{
 						label7.Text = "Info";
 						label8.Text = "";
+
+						Main.Image = Image.FromFile("Image/main.png");
+						Info.Image = Image.FromFile("Image/infoBlue.png");
+						Setting.Image = Image.FromFile("Image/settingWhite.png");
 					}
+
+
 
 					break;
 
@@ -116,30 +131,27 @@ namespace Discord_RPC
 					{
 						label7.Text = "Setting";
 						label8.Text = "";
+
+						Main.Image = Image.FromFile("Image/main.png");
+						Setting.Image = Image.FromFile("Image/settingRed.png");
+						Info.Image = Image.FromFile("Image/info.png");
 					}
+
+
 
 					break;
 			}
         }
+
         private void start_Click(object sender, EventArgs e)
         {
 			Initialize();
 		}
 
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Discord_RPC_FormClosing(object sender, FormClosingEventArgs e)
         {
 			e.Cancel = true;
 			this.Hide();
-
-        }
-
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
-        {
 
         }
 
