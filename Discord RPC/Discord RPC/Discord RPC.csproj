@@ -36,6 +36,9 @@
     <Reference Include="DiscordRPC, Version=1.0.150.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DiscordRichPresence.1.0.150\lib\net35\DiscordRPC.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>D:\UI\GUNA\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI.WinForms_v1.0.0.9\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2">
       <HintPath>D:\UI\GUNA\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI2.WinForms_v2.0.0.6\.net 4.0\Guna.UI2.dll</HintPath>
     </Reference>

@@ -49,18 +49,18 @@ namespace Discord_RPC
 				{
 					Details = details.Text,
 					State = state.Text,
+					Timestamps = new Timestamps(),
 					Assets = new Assets()
 					{
 						LargeImageKey = largeImage.Text,
 						LargeImageText = imageText.Text,
 						SmallImageKey = smallImage.Text
 					}
-				});
+				}) ;
 
-				if (isTimeStamp.Checked)
-				{
-					client.UpdateStartTime();
-				}
+
+
+
 			}
 			catch (Exception e)
             {
@@ -72,8 +72,6 @@ namespace Discord_RPC
         private void start_Click(object sender, EventArgs e)
         {
 			Initialize();
-
-
 		}
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
@@ -97,5 +95,6 @@ namespace Discord_RPC
         {
 			client.Dispose();
 		}
+
     }
 }

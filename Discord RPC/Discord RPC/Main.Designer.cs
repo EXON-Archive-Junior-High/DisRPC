@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Discord_RPC));
-            this.start = new Guna.UI2.WinForms.Guna2Button();
             this.id = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,24 +41,22 @@
             this.largeImage = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.imageText = new Guna.UI2.WinForms.Guna2TextBox();
-            this.stop = new Guna.UI2.WinForms.Guna2Button();
-            this.isTimeStamp = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2GradientTileButton1 = new Guna.UI2.WinForms.Guna2GradientTileButton();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Main = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.start = new Guna.UI.WinForms.GunaGradientButton();
+            this.stop = new Guna.UI.WinForms.GunaGradientButton();
+            this.formText = new Guna.UI.WinForms.GunaLabel();
+            this.Info = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.Setting = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.guna2Panel1.SuspendLayout();
+            this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // start
-            // 
-            this.start.BorderRadius = 20;
-            this.start.CheckedState.Parent = this.start;
-            this.start.CustomImages.Parent = this.start;
-            this.start.FillColor = System.Drawing.Color.Gray;
-            resources.ApplyResources(this.start, "start");
-            this.start.ForeColor = System.Drawing.Color.White;
-            this.start.HoverState.Parent = this.start;
-            this.start.Name = "start";
-            this.start.PressedColor = System.Drawing.Color.DarkGray;
-            this.start.ShadowDecoration.Parent = this.start;
-            this.start.Click += new System.EventHandler(this.start_Click);
             // 
             // id
             // 
@@ -87,12 +84,14 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Name = "label1";
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Name = "label2";
             // 
             // details
@@ -121,6 +120,7 @@
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Name = "label3";
             // 
             // state
@@ -150,6 +150,7 @@
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Name = "label4";
             // 
             // smallImage
@@ -178,6 +179,7 @@
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Name = "label5";
             // 
             // largeImage
@@ -207,6 +209,7 @@
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Name = "label6";
             // 
             // imageText
@@ -231,57 +234,218 @@
             this.imageText.SelectedText = "";
             this.imageText.ShadowDecoration.Parent = this.imageText;
             // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.guna2Panel1.Controls.Add(this.formText);
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox3);
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox1);
+            resources.ApplyResources(this.guna2Panel1, "guna2Panel1");
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
+            // 
+            // guna2ControlBox1
+            // 
+            resources.ApplyResources(this.guna2ControlBox1, "guna2ControlBox1");
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(98)))));
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            resources.ApplyResources(this.guna2ControlBox2, "guna2ControlBox2");
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.guna2ControlBox2.HoverState.Parent = this.guna2ControlBox2;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(39)))));
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
+            // 
+            // guna2ControlBox3
+            // 
+            this.guna2ControlBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            resources.ApplyResources(this.guna2ControlBox3, "guna2ControlBox3");
+            this.guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.guna2ControlBox3.HoverState.Parent = this.guna2ControlBox3;
+            this.guna2ControlBox3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(205)))), ((int)(((byte)(44)))));
+            this.guna2ControlBox3.Name = "guna2ControlBox3";
+            this.guna2ControlBox3.ShadowDecoration.Parent = this.guna2ControlBox3;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.guna2Panel2.Controls.Add(this.Setting);
+            this.guna2Panel2.Controls.Add(this.Info);
+            this.guna2Panel2.Controls.Add(this.Main);
+            resources.ApplyResources(this.guna2Panel2, "guna2Panel2");
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            // 
+            // Main
+            // 
+            this.Main.AnimationHoverSpeed = 0.07F;
+            this.Main.AnimationSpeed = 0.03F;
+            this.Main.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
+            this.Main.BorderColor = System.Drawing.Color.Black;
+            this.Main.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.Main.CheckedBorderColor = System.Drawing.Color.Black;
+            this.Main.CheckedForeColor = System.Drawing.Color.White;
+            this.Main.CheckedImage = ((System.Drawing.Image)(resources.GetObject("Main.CheckedImage")));
+            this.Main.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.Main.DialogResult = System.Windows.Forms.DialogResult.None;
+            resources.ApplyResources(this.Main, "Main");
+            this.Main.FocusedColor = System.Drawing.Color.Empty;
+            this.Main.ForeColor = System.Drawing.Color.White;
+            this.Main.Image = ((System.Drawing.Image)(resources.GetObject("Main.Image")));
+            this.Main.ImageSize = new System.Drawing.Size(20, 20);
+            this.Main.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.Main.Name = "Main";
+            this.Main.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.Main.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.Main.OnHoverForeColor = System.Drawing.Color.White;
+            this.Main.OnHoverImage = null;
+            this.Main.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.Main.OnPressedColor = System.Drawing.Color.Black;
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Name = "label7";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Name = "label8";
+            // 
+            // start
+            // 
+            this.start.AnimationHoverSpeed = 0.07F;
+            this.start.AnimationSpeed = 0.03F;
+            this.start.BackColor = System.Drawing.Color.Transparent;
+            this.start.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.start.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.start.BorderColor = System.Drawing.Color.Black;
+            this.start.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.start.FocusedColor = System.Drawing.Color.Empty;
+            resources.ApplyResources(this.start, "start");
+            this.start.ForeColor = System.Drawing.Color.White;
+            this.start.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.start.Image = ((System.Drawing.Image)(resources.GetObject("start.Image")));
+            this.start.ImageSize = new System.Drawing.Size(20, 20);
+            this.start.Name = "start";
+            this.start.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.start.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.start.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.start.OnHoverForeColor = System.Drawing.Color.White;
+            this.start.OnHoverImage = null;
+            this.start.OnPressedColor = System.Drawing.Color.Black;
+            this.start.Radius = 20;
+            this.start.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.start.Click += new System.EventHandler(this.start_Click);
+            // 
             // stop
             // 
-            this.stop.BorderRadius = 20;
-            this.stop.CheckedState.Parent = this.stop;
-            this.stop.CustomImages.Parent = this.stop;
-            this.stop.FillColor = System.Drawing.Color.Gray;
+            this.stop.AnimationHoverSpeed = 0.07F;
+            this.stop.AnimationSpeed = 0.03F;
+            this.stop.BackColor = System.Drawing.Color.Transparent;
+            this.stop.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.stop.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.stop.BorderColor = System.Drawing.Color.Black;
+            this.stop.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.stop.FocusedColor = System.Drawing.Color.Empty;
             resources.ApplyResources(this.stop, "stop");
             this.stop.ForeColor = System.Drawing.Color.White;
-            this.stop.HoverState.Parent = this.stop;
+            this.stop.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.stop.Image = ((System.Drawing.Image)(resources.GetObject("stop.Image")));
+            this.stop.ImageSize = new System.Drawing.Size(20, 20);
             this.stop.Name = "stop";
-            this.stop.PressedColor = System.Drawing.Color.DarkGray;
-            this.stop.ShadowDecoration.Parent = this.stop;
+            this.stop.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.stop.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.stop.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.stop.OnHoverForeColor = System.Drawing.Color.White;
+            this.stop.OnHoverImage = null;
+            this.stop.OnPressedColor = System.Drawing.Color.Black;
+            this.stop.Radius = 20;
+            this.stop.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.stop.Click += new System.EventHandler(this.stop_Click);
             // 
-            // isTimeStamp
+            // formText
             // 
-            this.isTimeStamp.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.isTimeStamp.CheckedState.BorderRadius = 2;
-            this.isTimeStamp.CheckedState.BorderThickness = 0;
-            this.isTimeStamp.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.isTimeStamp.CheckedState.Parent = this.isTimeStamp;
-            resources.ApplyResources(this.isTimeStamp, "isTimeStamp");
-            this.isTimeStamp.Name = "isTimeStamp";
-            this.isTimeStamp.ShadowDecoration.Parent = this.isTimeStamp;
-            this.isTimeStamp.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.isTimeStamp.UncheckedState.BorderRadius = 2;
-            this.isTimeStamp.UncheckedState.BorderThickness = 0;
-            this.isTimeStamp.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.isTimeStamp.UncheckedState.Parent = this.isTimeStamp;
+            resources.ApplyResources(this.formText, "formText");
+            this.formText.ForeColor = System.Drawing.Color.White;
+            this.formText.Name = "formText";
             // 
-            // guna2GradientTileButton1
+            // Info
             // 
-            this.guna2GradientTileButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientTileButton1.BorderRadius = 22;
-            this.guna2GradientTileButton1.CheckedState.Parent = this.guna2GradientTileButton1;
-            this.guna2GradientTileButton1.CustomImages.Parent = this.guna2GradientTileButton1;
-            this.guna2GradientTileButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.guna2GradientTileButton1, "guna2GradientTileButton1");
-            this.guna2GradientTileButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientTileButton1.HoverState.Parent = this.guna2GradientTileButton1;
-            this.guna2GradientTileButton1.Name = "guna2GradientTileButton1";
-            this.guna2GradientTileButton1.ShadowDecoration.Parent = this.guna2GradientTileButton1;
+            this.Info.AnimationHoverSpeed = 0.07F;
+            this.Info.AnimationSpeed = 0.03F;
+            this.Info.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
+            this.Info.BorderColor = System.Drawing.Color.Black;
+            this.Info.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.Info.CheckedBorderColor = System.Drawing.Color.Black;
+            this.Info.CheckedForeColor = System.Drawing.Color.White;
+            this.Info.CheckedImage = ((System.Drawing.Image)(resources.GetObject("Info.CheckedImage")));
+            this.Info.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.Info.DialogResult = System.Windows.Forms.DialogResult.None;
+            resources.ApplyResources(this.Info, "Info");
+            this.Info.FocusedColor = System.Drawing.Color.Empty;
+            this.Info.ForeColor = System.Drawing.Color.White;
+            this.Info.Image = ((System.Drawing.Image)(resources.GetObject("Info.Image")));
+            this.Info.ImageSize = new System.Drawing.Size(20, 20);
+            this.Info.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.Info.Name = "Info";
+            this.Info.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.Info.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.Info.OnHoverForeColor = System.Drawing.Color.White;
+            this.Info.OnHoverImage = null;
+            this.Info.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.Info.OnPressedColor = System.Drawing.Color.Black;
+            // 
+            // Setting
+            // 
+            this.Setting.AnimationHoverSpeed = 0.07F;
+            this.Setting.AnimationSpeed = 0.03F;
+            this.Setting.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
+            this.Setting.BorderColor = System.Drawing.Color.Black;
+            this.Setting.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.Setting.CheckedBorderColor = System.Drawing.Color.Black;
+            this.Setting.CheckedForeColor = System.Drawing.Color.White;
+            this.Setting.CheckedImage = ((System.Drawing.Image)(resources.GetObject("Setting.CheckedImage")));
+            this.Setting.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.Setting.DialogResult = System.Windows.Forms.DialogResult.None;
+            resources.ApplyResources(this.Setting, "Setting");
+            this.Setting.FocusedColor = System.Drawing.Color.Empty;
+            this.Setting.ForeColor = System.Drawing.Color.White;
+            this.Setting.Image = ((System.Drawing.Image)(resources.GetObject("Setting.Image")));
+            this.Setting.ImageSize = new System.Drawing.Size(20, 20);
+            this.Setting.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.Setting.Name = "Setting";
+            this.Setting.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.Setting.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.Setting.OnHoverForeColor = System.Drawing.Color.White;
+            this.Setting.OnHoverImage = null;
+            this.Setting.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.Setting.OnPressedColor = System.Drawing.Color.Black;
             // 
             // Discord_RPC
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.guna2GradientTileButton1);
-            this.Controls.Add(this.isTimeStamp);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
             this.Controls.Add(this.stop);
+            this.Controls.Add(this.start);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.imageText);
             this.Controls.Add(this.label4);
@@ -294,18 +458,19 @@
             this.Controls.Add(this.details);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.id);
-            this.Controls.Add(this.start);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Discord_RPC";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Discord_RPC_FormClosing);
             this.Load += new System.EventHandler(this.Discord_RPC_Load);
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
+            this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Button start;
         private Guna.UI2.WinForms.Guna2TextBox id;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -318,9 +483,19 @@
         private Guna.UI2.WinForms.Guna2TextBox largeImage;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2TextBox imageText;
-        private Guna.UI2.WinForms.Guna2Button stop;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox isTimeStamp;
-        private Guna.UI2.WinForms.Guna2GradientTileButton guna2GradientTileButton1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI.WinForms.GunaAdvenceButton Main;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private Guna.UI.WinForms.GunaGradientButton start;
+        private Guna.UI.WinForms.GunaGradientButton stop;
+        private Guna.UI.WinForms.GunaLabel formText;
+        private Guna.UI.WinForms.GunaAdvenceButton Setting;
+        private Guna.UI.WinForms.GunaAdvenceButton Info;
     }
 }
 
