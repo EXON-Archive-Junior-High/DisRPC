@@ -133,7 +133,7 @@ namespace Discord_RPC
 						label8.Text = "";
 
 						Main.Image = Image.FromFile("Image/main.png");
-						Setting.Image = Image.FromFile("Image/settingRed.png");
+						Setting.Image = Image.FromFile("Image/settingGreen.png");
 						Info.Image = Image.FromFile("Image/info.png");
 					}
 
