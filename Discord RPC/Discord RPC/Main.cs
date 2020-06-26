@@ -69,6 +69,58 @@ namespace Discord_RPC
 
 		}
 
+
+		private void MenuVisible(string key, bool visible)
+        {
+			switch (key)
+            {
+				case "Main":
+
+					if (visible)
+					{
+						label7.Text = "Main";
+						label8.Text = "RPC";
+					}
+
+					label1.Visible = visible;
+					label2.Visible = visible;
+					label3.Visible = visible;
+					label4.Visible = visible;
+					label5.Visible = visible;
+					label6.Visible = visible;
+
+					id.Visible = visible;
+					details.Visible = visible;
+					state.Visible = visible;
+					largeImage.Visible = visible;
+					smallImage.Visible = visible;
+					imageText.Visible = visible;
+
+					start.Visible = visible;
+					stop.Visible = visible;
+					break;
+
+				case "Info":
+
+					if (visible)
+					{
+						label7.Text = "Info";
+						label8.Text = "";
+					}
+
+					break;
+
+				case "Setting":
+
+					if (visible)
+					{
+						label7.Text = "Setting";
+						label8.Text = "";
+					}
+
+					break;
+			}
+        }
         private void start_Click(object sender, EventArgs e)
         {
 			Initialize();
@@ -93,8 +145,44 @@ namespace Discord_RPC
 
         private void stop_Click(object sender, EventArgs e)
         {
-			client.Dispose();
+            try
+            {
+				client.Dispose();
+			}
+			catch (Exception ex)
+            {
+				if (ex.Message == "개체 참조가 개체의 인스턴스로 설정되지 않았습니다.")
+				{
+					MessageBox.Show("먼저 시작을 해주세요");
+				}
+				else
+				{
+					MessageBox.Show(ex.Message);
+				}
+				Console.WriteLine(ex);
+            }
+
 		}
 
+        private void Main_Click(object sender, EventArgs e)
+        {
+			MenuVisible("Main", true);
+			MenuVisible("Info", false);
+			MenuVisible("Setting", false);
+		}
+
+        private void Info_Click(object sender, EventArgs e)
+        {
+			MenuVisible("Main", false);
+			MenuVisible("Info", true);
+			MenuVisible("Setting", false);
+		}
+
+        private void Setting_Click(object sender, EventArgs e)
+        {
+			MenuVisible("Main", false);
+			MenuVisible("Info", false);
+			MenuVisible("Setting", true);
+		}
     }
 }

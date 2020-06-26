@@ -310,6 +310,7 @@
             this.Main.OnHoverImage = null;
             this.Main.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.Main.OnPressedColor = System.Drawing.Color.Black;
+            this.Main.Click += new System.EventHandler(this.Main_Click);
             // 
             // label7
             // 
@@ -408,6 +409,7 @@
             this.Info.OnHoverImage = null;
             this.Info.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.Info.OnPressedColor = System.Drawing.Color.Black;
+            this.Info.Click += new System.EventHandler(this.Info_Click);
             // 
             // Setting
             // 
@@ -434,6 +436,7 @@
             this.Setting.OnHoverImage = null;
             this.Setting.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.Setting.OnPressedColor = System.Drawing.Color.Black;
+            this.Setting.Click += new System.EventHandler(this.Setting_Click);
             // 
             // Discord_RPC
             // 
