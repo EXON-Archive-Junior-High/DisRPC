@@ -85,6 +85,9 @@ namespace Discord_RPC
 					{
 						label7.Text = "Main";
 						label8.Text = "RPC";
+						label9.Text = "";
+						label10.Text = "";
+						label11.Text = "";
 
 						Main.Image = Image.FromFile("Image/mainRed.png");
 						Info.Image = Image.FromFile("Image/info.png");
@@ -114,7 +117,13 @@ namespace Discord_RPC
 					if (visible)
 					{
 						label7.Text = "Info";
-						label8.Text = "";
+						label8.Text = "Program";
+						label9.Text = "DisRPC 는 학생 개발자 엑슨이 개발한 커스텀 디스코드 rpc 프로그램입니다.";
+						label10.Text = "Developer";
+						label11.Text = "엑슨(EXON) 은 디자인과 프로그래밍을 좋아하는 학생입니다.\n\n" 
+							+ "Contact\n"
+							+ "Discord : EXON#0062\n"
+							+ "Mail : exon.indiv@gmail.com\n";
 
 						Main.Image = Image.FromFile("Image/main.png");
 						Info.Image = Image.FromFile("Image/infoBlue.png");
@@ -131,6 +140,9 @@ namespace Discord_RPC
 					{
 						label7.Text = "Setting";
 						label8.Text = "";
+						label9.Text = "";
+						label10.Text = "";
+						label11.Text = "";
 
 						Main.Image = Image.FromFile("Image/main.png");
 						Setting.Image = Image.FromFile("Image/settingGreen.png");
