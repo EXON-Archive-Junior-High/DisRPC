@@ -59,6 +59,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.gunaSwitch1 = new Guna.UI.WinForms.GunaSwitch();
+            this.shadow = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.Bar.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
@@ -466,11 +468,21 @@
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Name = "label11";
             // 
+            // gunaSwitch1
+            // 
+            this.gunaSwitch1.BaseColor = System.Drawing.SystemColors.Control;
+            this.gunaSwitch1.CheckedOffColor = System.Drawing.Color.DarkGray;
+            this.gunaSwitch1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaSwitch1.FillColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.gunaSwitch1, "gunaSwitch1");
+            this.gunaSwitch1.Name = "gunaSwitch1";
+            // 
             // Discord_RPC
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
+            this.Controls.Add(this.gunaSwitch1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -536,6 +548,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private Guna.UI.WinForms.GunaSwitch gunaSwitch1;
+        private Guna.UI2.WinForms.Guna2ShadowForm shadow;
     }
 }
 

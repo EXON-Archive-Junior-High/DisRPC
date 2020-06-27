@@ -145,7 +145,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;id.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -175,7 +175,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -205,7 +205,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="details.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
@@ -232,7 +232,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;details.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -262,7 +262,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="state.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
@@ -289,7 +289,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;state.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -322,7 +322,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="smallImage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
@@ -349,7 +349,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;smallImage.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -382,7 +382,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="largeImage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
@@ -409,7 +409,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;largeImage.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -442,7 +442,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="imageText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
@@ -469,7 +469,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;imageText.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="formText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -598,67 +598,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Bar.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;Setting.Name" xml:space="preserve">
-    <value>Setting</value>
-  </data>
-  <data name="&gt;&gt;Setting.Type" xml:space="preserve">
-    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Setting.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Setting.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Info.Name" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="&gt;&gt;Info.Type" xml:space="preserve">
-    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Info.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Info.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Main.Name" xml:space="preserve">
-    <value>Main</value>
-  </data>
-  <data name="&gt;&gt;Main.Type" xml:space="preserve">
-    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;Main.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;Main.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="guna2Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 571</value>
-  </data>
-  <data name="guna2Panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.Name" xml:space="preserve">
-    <value>guna2Panel2</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="Setting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -834,6 +774,30 @@
   <data name="&gt;&gt;Main.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="guna2Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 571</value>
+  </data>
+  <data name="guna2Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Name" xml:space="preserve">
+    <value>guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -865,7 +829,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -898,7 +862,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="start.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 14.25pt</value>
@@ -944,7 +908,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;start.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="stop.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 14.25pt</value>
@@ -994,7 +958,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;stop.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <metadata name="Drag.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -1030,7 +994,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1063,7 +1027,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1096,8 +1060,32 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gunaSwitch1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 407</value>
+  </data>
+  <data name="gunaSwitch1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="gunaSwitch1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;gunaSwitch1.Name" xml:space="preserve">
+    <value>gunaSwitch1</value>
+  </data>
+  <data name="&gt;&gt;gunaSwitch1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaSwitch, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaSwitch1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gunaSwitch1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="shadow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>96, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1118,6 +1106,12 @@
   </data>
   <data name="&gt;&gt;Drag.Type" xml:space="preserve">
     <value>Guna.UI.WinForms.GunaDragControl, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;shadow.Name" xml:space="preserve">
+    <value>shadow</value>
+  </data>
+  <data name="&gt;&gt;shadow.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ShadowForm, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Discord_RPC</value>

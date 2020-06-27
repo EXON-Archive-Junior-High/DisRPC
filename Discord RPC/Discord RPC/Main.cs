@@ -25,6 +25,8 @@ namespace Discord_RPC
 			this.Text += " Beta";
 			formText.Text += " Beta";
 
+			shadow.SetShadowForm(this);
+
 			MenuVisible("Main", true);
 			MenuVisible("Info", false);
 			MenuVisible("Setting", false);
