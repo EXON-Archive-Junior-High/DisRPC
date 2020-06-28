@@ -85,14 +85,23 @@ namespace Discord_RPC
 			if (dark)
             {
 				this.BackColor = Color.White;
-
+				Bar.BackColor = Color.FromArgb(30, 24, 58);
 				MenuBar.BackColor = Color.FromArgb(37, 35, 63);
 
 				Main.BaseColor = Color.FromArgb(37, 35, 63);
 				Info.BaseColor = Color.FromArgb(37, 35, 63);
 				Setting.BaseColor = Color.FromArgb(37, 35, 63);
+				//Main.OnHoverBaseColor = Color.FromArgb(37, 35, 63);
+				//Info.OnHoverBaseColor = Color.FromArgb(37, 35, 63);
+				//Setting.OnHoverBaseColor = Color.FromArgb(37, 35, 63);
 
 
+				label1.ForeColor = Color.White;
+				label2.ForeColor = Color.White;
+				label3.ForeColor = Color.White;
+				label4.ForeColor = Color.White;
+				label5.ForeColor = Color.White;
+				label6.ForeColor = Color.White;
 				label7.ForeColor = Color.White;
 				label8.ForeColor = Color.White;
 				label9.ForeColor = Color.White;
@@ -103,13 +112,20 @@ namespace Discord_RPC
 			else if (!dark)
             {
 				this.BackColor = Color.White;
-
+				Bar.BackColor = Color.DarkGray;
 				MenuBar.BackColor = Color.Gray;
 
 				Main.BaseColor = Color.Gray;
 				Info.BaseColor = Color.Gray;
 				Setting.BaseColor = Color.Gray;
 
+
+				label1.ForeColor = Color.Black;
+				label2.ForeColor = Color.Black;
+				label3.ForeColor = Color.Black;
+				label4.ForeColor = Color.Black;
+				label5.ForeColor = Color.Black;
+				label6.ForeColor = Color.Black;
 				label7.ForeColor = Color.Black;
 				label8.ForeColor = Color.Black;
 				label9.ForeColor = Color.Black;

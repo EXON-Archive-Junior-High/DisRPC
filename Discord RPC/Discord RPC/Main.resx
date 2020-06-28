@@ -501,79 +501,79 @@
   <data name="&gt;&gt;formText.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="guna2ControlBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="minimum.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="guna2ControlBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="minimum.Location" type="System.Drawing.Point, System.Drawing">
     <value>914, 0</value>
   </data>
-  <data name="guna2ControlBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="minimum.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 30</value>
   </data>
-  <data name="guna2ControlBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="minimum.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox3.Name" xml:space="preserve">
-    <value>guna2ControlBox3</value>
+  <data name="&gt;&gt;minimum.Name" xml:space="preserve">
+    <value>minimum</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;minimum.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;minimum.Parent" xml:space="preserve">
     <value>Bar</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;minimum.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="guna2ControlBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="maximum.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="guna2ControlBox2.Enabled" type="System.Boolean, mscorlib">
+  <data name="maximum.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="guna2ControlBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="maximum.Location" type="System.Drawing.Point, System.Drawing">
     <value>954, 0</value>
   </data>
-  <data name="guna2ControlBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="maximum.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 30</value>
   </data>
-  <data name="guna2ControlBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="maximum.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox2.Name" xml:space="preserve">
-    <value>guna2ControlBox2</value>
+  <data name="&gt;&gt;maximum.Name" xml:space="preserve">
+    <value>maximum</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;maximum.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;maximum.Parent" xml:space="preserve">
     <value>Bar</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;maximum.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="guna2ControlBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="close.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="guna2ControlBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="close.Location" type="System.Drawing.Point, System.Drawing">
     <value>994, 0</value>
   </data>
-  <data name="guna2ControlBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="close.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 30</value>
   </data>
-  <data name="guna2ControlBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="close.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox1.Name" xml:space="preserve">
-    <value>guna2ControlBox1</value>
+  <data name="&gt;&gt;close.Name" xml:space="preserve">
+    <value>close</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;close.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;close.Parent" xml:space="preserve">
     <value>Bar</value>
   </data>
-  <data name="&gt;&gt;guna2ControlBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;close.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="Bar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">

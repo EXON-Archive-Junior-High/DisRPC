@@ -44,9 +44,9 @@
             this.imageText = new Guna.UI2.WinForms.Guna2TextBox();
             this.Bar = new Guna.UI2.WinForms.Guna2Panel();
             this.formText = new Guna.UI.WinForms.GunaLabel();
-            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.minimum = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.maximum = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.close = new Guna.UI2.WinForms.Guna2ControlBox();
             this.MenuBar = new Guna.UI2.WinForms.Guna2Panel();
             this.Setting = new Guna.UI.WinForms.GunaAdvenceButton();
             this.Info = new Guna.UI.WinForms.GunaAdvenceButton();
@@ -243,9 +243,9 @@
             // 
             this.Bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
             this.Bar.Controls.Add(this.formText);
-            this.Bar.Controls.Add(this.guna2ControlBox3);
-            this.Bar.Controls.Add(this.guna2ControlBox2);
-            this.Bar.Controls.Add(this.guna2ControlBox1);
+            this.Bar.Controls.Add(this.minimum);
+            this.Bar.Controls.Add(this.maximum);
+            this.Bar.Controls.Add(this.close);
             resources.ApplyResources(this.Bar, "Bar");
             this.Bar.Name = "Bar";
             this.Bar.ShadowDecoration.Parent = this.Bar;
@@ -256,35 +256,35 @@
             this.formText.ForeColor = System.Drawing.Color.White;
             this.formText.Name = "formText";
             // 
-            // guna2ControlBox3
+            // minimum
             // 
-            this.guna2ControlBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
-            this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            resources.ApplyResources(this.guna2ControlBox3, "guna2ControlBox3");
-            this.guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
-            this.guna2ControlBox3.HoverState.Parent = this.guna2ControlBox3;
-            this.guna2ControlBox3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(205)))), ((int)(((byte)(44)))));
-            this.guna2ControlBox3.Name = "guna2ControlBox3";
-            this.guna2ControlBox3.ShadowDecoration.Parent = this.guna2ControlBox3;
+            this.minimum.BackColor = System.Drawing.Color.Transparent;
+            this.minimum.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            resources.ApplyResources(this.minimum, "minimum");
+            this.minimum.FillColor = System.Drawing.Color.Transparent;
+            this.minimum.HoverState.Parent = this.minimum;
+            this.minimum.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(205)))), ((int)(((byte)(44)))));
+            this.minimum.Name = "minimum";
+            this.minimum.ShadowDecoration.Parent = this.minimum;
             // 
-            // guna2ControlBox2
+            // maximum
             // 
-            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            resources.ApplyResources(this.guna2ControlBox2, "guna2ControlBox2");
-            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
-            this.guna2ControlBox2.HoverState.Parent = this.guna2ControlBox2;
-            this.guna2ControlBox2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(39)))));
-            this.guna2ControlBox2.Name = "guna2ControlBox2";
-            this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
+            this.maximum.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            resources.ApplyResources(this.maximum, "maximum");
+            this.maximum.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
+            this.maximum.HoverState.Parent = this.maximum;
+            this.maximum.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(39)))));
+            this.maximum.Name = "maximum";
+            this.maximum.ShadowDecoration.Parent = this.maximum;
             // 
-            // guna2ControlBox1
+            // close
             // 
-            resources.ApplyResources(this.guna2ControlBox1, "guna2ControlBox1");
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(98)))));
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
+            resources.ApplyResources(this.close, "close");
+            this.close.FillColor = System.Drawing.Color.Transparent;
+            this.close.HoverState.Parent = this.close;
+            this.close.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(98)))));
+            this.close.Name = "close";
+            this.close.ShadowDecoration.Parent = this.close;
             // 
             // MenuBar
             // 
@@ -535,8 +535,8 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2TextBox imageText;
         private Guna.UI2.WinForms.Guna2Panel Bar;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private Guna.UI2.WinForms.Guna2ControlBox minimum;
+        private Guna.UI2.WinForms.Guna2ControlBox close;
         private Guna.UI2.WinForms.Guna2Panel MenuBar;
         private Guna.UI.WinForms.GunaAdvenceButton Main;
         private System.Windows.Forms.Label label7;
@@ -547,7 +547,7 @@
         private Guna.UI.WinForms.GunaAdvenceButton Setting;
         private Guna.UI.WinForms.GunaAdvenceButton Info;
         private Guna.UI.WinForms.GunaDragControl Drag;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2ControlBox maximum;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
