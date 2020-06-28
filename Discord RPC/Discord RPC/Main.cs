@@ -42,13 +42,12 @@ namespace Discord_RPC
 				client.OnReady += (sender, e) =>
 				{
 					Console.WriteLine("Received Ready from user {0}", e.User.Username);
-					MessageBox.Show("실행");
+					MessageBox.Show("Start");
 				};
 
 				client.OnPresenceUpdate += (sender, e) =>
 				{
 					Console.WriteLine("Received Update! {0}", e.Presence);
-					MessageBox.Show("업데이트");
 				};
 
 				client.Initialize();
@@ -73,8 +72,51 @@ namespace Discord_RPC
             {
 				MessageBox.Show(e.Message);
             }
+            finally
+            {
+
+
+			}
 
 		}
+
+		private void ChangeTema(bool dark)
+        {
+			if (dark)
+            {
+				this.BackColor = Color.White;
+
+				MenuBar.BackColor = Color.FromArgb(37, 35, 63);
+
+				Main.BaseColor = Color.FromArgb(37, 35, 63);
+				Info.BaseColor = Color.FromArgb(37, 35, 63);
+				Setting.BaseColor = Color.FromArgb(37, 35, 63);
+
+
+				label7.ForeColor = Color.White;
+				label8.ForeColor = Color.White;
+				label9.ForeColor = Color.White;
+				label10.ForeColor = Color.White;
+				label11.ForeColor = Color.White;
+
+			}
+			else if (!dark)
+            {
+				this.BackColor = Color.White;
+
+				MenuBar.BackColor = Color.Gray;
+
+				Main.BaseColor = Color.Gray;
+				Info.BaseColor = Color.Gray;
+				Setting.BaseColor = Color.Gray;
+
+				label7.ForeColor = Color.Black;
+				label8.ForeColor = Color.Black;
+				label9.ForeColor = Color.Black;
+				label10.ForeColor = Color.Black;
+				label11.ForeColor = Color.Black;
+			}
+        }
 
 
 		private void MenuVisible(string key, bool visible)
@@ -141,14 +183,34 @@ namespace Discord_RPC
 					if (visible)
 					{
 						label7.Text = "Setting";
-						label8.Text = "";
-						label9.Text = "";
+						label8.Text = "Thema";
+						label9.Text = "Dark Thema";
 						label10.Text = "";
 						label11.Text = "";
 
 						Main.Image = Image.FromFile("Image/main.png");
 						Setting.Image = Image.FromFile("Image/settingGreen.png");
 						Info.Image = Image.FromFile("Image/info.png");
+					}
+					darkThema.Visible = visible;
+
+
+					break;
+
+				case "Preview":
+
+					if (visible)
+					{
+						label7.Text = "Preview";
+						label8.Text = "";
+						label9.Text = "";
+						label10.Text = "";
+						label11.Text = "";
+
+						Main.Image = Image.FromFile("Image/main.png");
+						Setting.Image = Image.FromFile("Image/settingWhite.png");
+						Info.Image = Image.FromFile("Image/info.png");
+						
 					}
 
 
@@ -203,6 +265,7 @@ namespace Discord_RPC
 			MenuVisible("Main", false);
 			MenuVisible("Info", true);
 			MenuVisible("Setting", false);
+
 		}
 
         private void Setting_Click(object sender, EventArgs e)
@@ -211,5 +274,16 @@ namespace Discord_RPC
 			MenuVisible("Info", false);
 			MenuVisible("Setting", true);
 		}
+
+        private void darkThema_CheckedChanged(object sender, EventArgs e)
+        {
+			if (darkThema.Checked) {
+				ChangeTema(true);
+			}
+            else
+            {
+				ChangeTema(false);
+			}
+        }
     }
 }

@@ -47,7 +47,7 @@
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.MenuBar = new Guna.UI2.WinForms.Guna2Panel();
             this.Setting = new Guna.UI.WinForms.GunaAdvenceButton();
             this.Info = new Guna.UI.WinForms.GunaAdvenceButton();
             this.Main = new Guna.UI.WinForms.GunaAdvenceButton();
@@ -59,10 +59,10 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.gunaSwitch1 = new Guna.UI.WinForms.GunaSwitch();
             this.shadow = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.darkThema = new Guna.UI.WinForms.GunaGoogleSwitch();
             this.Bar.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
+            this.MenuBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // id
@@ -286,15 +286,15 @@
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
             // 
-            // guna2Panel2
+            // MenuBar
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
-            this.guna2Panel2.Controls.Add(this.Setting);
-            this.guna2Panel2.Controls.Add(this.Info);
-            this.guna2Panel2.Controls.Add(this.Main);
-            resources.ApplyResources(this.guna2Panel2, "guna2Panel2");
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.MenuBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.MenuBar.Controls.Add(this.Setting);
+            this.MenuBar.Controls.Add(this.Info);
+            this.MenuBar.Controls.Add(this.Main);
+            resources.ApplyResources(this.MenuBar, "MenuBar");
+            this.MenuBar.Name = "MenuBar";
+            this.MenuBar.ShadowDecoration.Parent = this.MenuBar;
             // 
             // Setting
             // 
@@ -468,21 +468,24 @@
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Name = "label11";
             // 
-            // gunaSwitch1
+            // darkThema
             // 
-            this.gunaSwitch1.BaseColor = System.Drawing.SystemColors.Control;
-            this.gunaSwitch1.CheckedOffColor = System.Drawing.Color.DarkGray;
-            this.gunaSwitch1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaSwitch1.FillColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.gunaSwitch1, "gunaSwitch1");
-            this.gunaSwitch1.Name = "gunaSwitch1";
+            this.darkThema.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.darkThema, "darkThema");
+            this.darkThema.BaseColor = System.Drawing.SystemColors.Control;
+            this.darkThema.Checked = true;
+            this.darkThema.CheckedOffColor = System.Drawing.Color.DarkGray;
+            this.darkThema.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.darkThema.FillColor = System.Drawing.Color.White;
+            this.darkThema.Name = "darkThema";
+            this.darkThema.CheckedChanged += new System.EventHandler(this.darkThema_CheckedChanged);
             // 
             // Discord_RPC
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
-            this.Controls.Add(this.gunaSwitch1);
+            this.Controls.Add(this.darkThema);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -490,7 +493,7 @@
             this.Controls.Add(this.start);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.MenuBar);
             this.Controls.Add(this.Bar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.imageText);
@@ -512,7 +515,7 @@
             this.Load += new System.EventHandler(this.Discord_RPC_Load);
             this.Bar.ResumeLayout(false);
             this.Bar.PerformLayout();
-            this.guna2Panel2.ResumeLayout(false);
+            this.MenuBar.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -534,7 +537,7 @@
         private Guna.UI2.WinForms.Guna2Panel Bar;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel MenuBar;
         private Guna.UI.WinForms.GunaAdvenceButton Main;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -548,8 +551,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private Guna.UI.WinForms.GunaSwitch gunaSwitch1;
         private Guna.UI2.WinForms.Guna2ShadowForm shadow;
+        private Guna.UI.WinForms.GunaGoogleSwitch darkThema;
     }
 }
 

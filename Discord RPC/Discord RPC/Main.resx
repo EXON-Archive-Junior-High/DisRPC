@@ -646,7 +646,7 @@
     <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
   <data name="&gt;&gt;Setting.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
+    <value>MenuBar</value>
   </data>
   <data name="&gt;&gt;Setting.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -712,7 +712,7 @@
     <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
   <data name="&gt;&gt;Info.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
+    <value>MenuBar</value>
   </data>
   <data name="&gt;&gt;Info.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -769,33 +769,33 @@
     <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
   <data name="&gt;&gt;Main.Parent" xml:space="preserve">
-    <value>guna2Panel2</value>
+    <value>MenuBar</value>
   </data>
   <data name="&gt;&gt;Main.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="guna2Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="MenuBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MenuBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 30</value>
   </data>
-  <data name="guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="MenuBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 571</value>
   </data>
-  <data name="guna2Panel2.TabIndex" type="System.Int32, mscorlib">
+  <data name="MenuBar.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;guna2Panel2.Name" xml:space="preserve">
-    <value>guna2Panel2</value>
+  <data name="&gt;&gt;MenuBar.Name" xml:space="preserve">
+    <value>MenuBar</value>
   </data>
-  <data name="&gt;&gt;guna2Panel2.Type" xml:space="preserve">
+  <data name="&gt;&gt;MenuBar.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;guna2Panel2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MenuBar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;guna2Panel2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MenuBar.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
@@ -1062,30 +1062,33 @@
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="gunaSwitch1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>504, 407</value>
-  </data>
-  <data name="gunaSwitch1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 20</value>
-  </data>
-  <data name="gunaSwitch1.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;gunaSwitch1.Name" xml:space="preserve">
-    <value>gunaSwitch1</value>
-  </data>
-  <data name="&gt;&gt;gunaSwitch1.Type" xml:space="preserve">
-    <value>Guna.UI.WinForms.GunaSwitch, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;gunaSwitch1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gunaSwitch1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="shadow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>96, 17</value>
   </metadata>
+  <data name="darkThema.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="darkThema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 133</value>
+  </data>
+  <data name="darkThema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="darkThema.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;darkThema.Name" xml:space="preserve">
+    <value>darkThema</value>
+  </data>
+  <data name="&gt;&gt;darkThema.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGoogleSwitch, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;darkThema.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;darkThema.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
