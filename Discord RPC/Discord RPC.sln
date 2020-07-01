@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord RPC", "Discord RPC\Discord RPC.csproj", "{CC07EFFF-D069-4757-8789-13FA7A5E8C13}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DisRPC", "DisRPC\DisRPC.vdproj", "{F4DA517E-D00A-4329-B83B-1E07C339FC2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,17 @@ Global
 		{CC07EFFF-D069-4757-8789-13FA7A5E8C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC07EFFF-D069-4757-8789-13FA7A5E8C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC07EFFF-D069-4757-8789-13FA7A5E8C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DA517E-D00A-4329-B83B-1E07C339FC2C}.Debug|Any CPU.ActiveCfg = Debug
+		{F4DA517E-D00A-4329-B83B-1E07C339FC2C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF20CE79-94DF-4DAC-89C8-F3A72639BF09}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 EndGlobal
