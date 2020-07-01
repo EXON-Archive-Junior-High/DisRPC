@@ -471,6 +471,78 @@
   <data name="&gt;&gt;imageText.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <data name="&gt;&gt;formText.Name" xml:space="preserve">
+    <value>formText</value>
+  </data>
+  <data name="&gt;&gt;formText.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;formText.Parent" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="&gt;&gt;formText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;minimum.Name" xml:space="preserve">
+    <value>minimum</value>
+  </data>
+  <data name="&gt;&gt;minimum.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;minimum.Parent" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="&gt;&gt;minimum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;maximum.Name" xml:space="preserve">
+    <value>maximum</value>
+  </data>
+  <data name="&gt;&gt;maximum.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;maximum.Parent" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="&gt;&gt;maximum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;close.Name" xml:space="preserve">
+    <value>close</value>
+  </data>
+  <data name="&gt;&gt;close.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ControlBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;close.Parent" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="&gt;&gt;close.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Bar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Bar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Bar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 30</value>
+  </data>
+  <data name="Bar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Bar.Name" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="&gt;&gt;Bar.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Bar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Bar.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <data name="formText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -576,29 +648,65 @@
   <data name="&gt;&gt;close.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="Bar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;Setting.Name" xml:space="preserve">
+    <value>Setting</value>
   </data>
-  <data name="Bar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;Setting.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
-  <data name="Bar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1034, 30</value>
+  <data name="&gt;&gt;Setting.Parent" xml:space="preserve">
+    <value>MenuBar</value>
   </data>
-  <data name="Bar.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="&gt;&gt;Setting.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;Bar.Name" xml:space="preserve">
-    <value>Bar</value>
+  <data name="&gt;&gt;Info.Name" xml:space="preserve">
+    <value>Info</value>
   </data>
-  <data name="&gt;&gt;Bar.Type" xml:space="preserve">
+  <data name="&gt;&gt;Info.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Info.Parent" xml:space="preserve">
+    <value>MenuBar</value>
+  </data>
+  <data name="&gt;&gt;Info.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Main.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;Main.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaAdvenceButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;Main.Parent" xml:space="preserve">
+    <value>MenuBar</value>
+  </data>
+  <data name="&gt;&gt;Main.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MenuBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="MenuBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="MenuBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 571</value>
+  </data>
+  <data name="MenuBar.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;MenuBar.Name" xml:space="preserve">
+    <value>MenuBar</value>
+  </data>
+  <data name="&gt;&gt;MenuBar.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;Bar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MenuBar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Bar.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;MenuBar.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="Setting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -773,30 +881,6 @@
   </data>
   <data name="&gt;&gt;Main.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="MenuBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="MenuBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="MenuBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 571</value>
-  </data>
-  <data name="MenuBar.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;MenuBar.Name" xml:space="preserve">
-    <value>MenuBar</value>
-  </data>
-  <data name="&gt;&gt;MenuBar.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;MenuBar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MenuBar.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>

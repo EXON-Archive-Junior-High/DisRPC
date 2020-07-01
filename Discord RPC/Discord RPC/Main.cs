@@ -22,14 +22,16 @@ namespace Discord_RPC
 
 		private void Discord_RPC_Load(object sender, EventArgs e)
 		{
-			this.Text += " Beta";
-			formText.Text += " Beta";
+			this.Text += " v1.0";
+			formText.Text += " v1.0";
 
 			shadow.SetShadowForm(this);
 
 			MenuVisible("Main", true);
 			MenuVisible("Info", false);
 			MenuVisible("Setting", false);
+
+			ChangeTema(true);
 		}
 
 		void Initialize()
@@ -84,17 +86,31 @@ namespace Discord_RPC
         {
 			if (dark)
             {
-				this.BackColor = Color.White;
+				formText.ForeColor = Color.White;
+				this.BackColor = Color.FromArgb(35, 30, 59);
+
 				Bar.BackColor = Color.FromArgb(30, 24, 58);
 				MenuBar.BackColor = Color.FromArgb(37, 35, 63);
 
 				Main.BaseColor = Color.FromArgb(37, 35, 63);
 				Info.BaseColor = Color.FromArgb(37, 35, 63);
 				Setting.BaseColor = Color.FromArgb(37, 35, 63);
-				//Main.OnHoverBaseColor = Color.FromArgb(37, 35, 63);
-				//Info.OnHoverBaseColor = Color.FromArgb(37, 35, 63);
-				//Setting.OnHoverBaseColor = Color.FromArgb(37, 35, 63);
 
+				Main.OnHoverBaseColor = Color.FromArgb(30, 24, 58);
+				Info.OnHoverBaseColor = Color.FromArgb(30, 24, 58);
+				Setting.OnHoverBaseColor = Color.FromArgb(30, 24, 58);
+
+				start.BaseColor1 = Color.FromArgb(30, 24, 58);
+				start.BaseColor2 = Color.FromArgb(30, 24, 58);
+
+				stop.BaseColor1 = Color.FromArgb(30, 24, 58);
+				stop.BaseColor2 = Color.FromArgb(30, 24, 58);
+
+				start.OnHoverBaseColor1 = Color.FromArgb(30, 24, 58);
+				start.OnHoverBaseColor2 = Color.FromArgb(37, 35, 63);
+
+				stop.OnHoverBaseColor1 = Color.FromArgb(30, 24, 58);
+				stop.OnHoverBaseColor2 = Color.FromArgb(37, 35, 63);
 
 				label1.ForeColor = Color.White;
 				label2.ForeColor = Color.White;
@@ -111,14 +127,31 @@ namespace Discord_RPC
 			}
 			else if (!dark)
             {
+				formText.ForeColor = Color.Black;
 				this.BackColor = Color.White;
-				Bar.BackColor = Color.DarkGray;
-				MenuBar.BackColor = Color.Gray;
 
-				Main.BaseColor = Color.Gray;
-				Info.BaseColor = Color.Gray;
-				Setting.BaseColor = Color.Gray;
+				Bar.BackColor = Color.FromArgb(241, 239, 241);
+				MenuBar.BackColor = Color.FromArgb(160, 159, 160);
 
+				Main.BaseColor = Color.FromArgb(160, 159, 160);
+				Info.BaseColor = Color.FromArgb(160, 159, 160);
+				Setting.BaseColor = Color.FromArgb(160, 159, 160);
+
+				Main.OnHoverBaseColor = Color.LightGray;
+				Info.OnHoverBaseColor = Color.LightGray;
+				Setting.OnHoverBaseColor = Color.LightGray;
+
+				start.BaseColor1 = Color.FromArgb(160, 159, 160);
+				start.BaseColor2 = Color.FromArgb(160, 159, 160);
+
+				stop.BaseColor1 = Color.FromArgb(160, 159, 160);
+				stop.BaseColor2 = Color.FromArgb(160, 159, 160);
+
+				start.OnHoverBaseColor1 = Color.Gray;
+				start.OnHoverBaseColor2 = Color.Gray;
+
+				stop.OnHoverBaseColor1 = Color.Gray;
+				stop.OnHoverBaseColor2 = Color.Gray;
 
 				label1.ForeColor = Color.Black;
 				label2.ForeColor = Color.Black;

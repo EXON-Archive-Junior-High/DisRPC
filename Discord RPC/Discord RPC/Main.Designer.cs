@@ -396,7 +396,7 @@
             this.start.AnimationHoverSpeed = 0.07F;
             this.start.AnimationSpeed = 0.03F;
             this.start.BackColor = System.Drawing.Color.Transparent;
-            this.start.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.start.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
             this.start.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
             this.start.BorderColor = System.Drawing.Color.Black;
             this.start.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -422,7 +422,7 @@
             this.stop.AnimationHoverSpeed = 0.07F;
             this.stop.AnimationSpeed = 0.03F;
             this.stop.BackColor = System.Drawing.Color.Transparent;
-            this.stop.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.stop.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
             this.stop.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(24)))), ((int)(((byte)(58)))));
             this.stop.BorderColor = System.Drawing.Color.Black;
             this.stop.DialogResult = System.Windows.Forms.DialogResult.None;
